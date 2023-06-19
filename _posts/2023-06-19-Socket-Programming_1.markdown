@@ -7,7 +7,7 @@ categories: ComputerNetwork
 
 <!-- prettier-ignore-start -->
 
-#### 2. String Transfer: client가 입력한 문자열을 서버에서 ASCII 코드로 반환하는 코드
+#### 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
 ##### 서버 코드
 
 <!-- prettier-ignore-end -->
@@ -35,13 +35,27 @@ while True:
         print("Connection is Over")
         break
     print("Equation is received")
+    result = 0
+    operation_list = msg.split()
+    oprnd1 = operation_list[0]
+    operation = operation_list[1]
+    oprnd2 = operation_list[2]
 
-    ascii_values = [ord(character) for character in msg]
-    ascii_str = str(ascii_values)
+    num1 = int(oprnd1)
+    num2 = int(oprnd2)
+
+    if operation == "+":
+        result = num1+num2
+    elif operation == "-":
+        result = num1-num2
+    elif operation == "x":
+        result = num1*num2
+    elif operation == "/":
+        result = num1/num2
 
     print("Send the result to client")
-    clientConnection.send(ascii_str.encode())
-
+    output = str(result)
+    clientConnection.send(output.encode())
 clientConnection.close()
 ```
 
@@ -54,32 +68,21 @@ clientConnection.close()
 ```python
 import socket
 
-LOCALHOST = "127.0.0.1"
+SERVER = "127.0.0.1"
 PORT = 8080
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((LOCALHOST, PORT))
-server.listen()
-print("Server started")
-print("Waiting for client request..")
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-clientConnection, clientAddress = server.accept()
-print("Connected client: ", clientAddress)
-msg = ''
-
+client.connect((SERVER, PORT))
 while True:
-    data = clientConnection.recv(1024)
-    msg = data.decode()
-    if msg == 'Over':
-        print("Connection is Over")
+    print("Example : 4 + 5")
+    inp = input("Enter the operation in the form oprenad oparator oprenad : ")
+    if inp == "Over":
         break
-    print("Equation is received")
+    client.send(inp.encode())
 
-    ascii_values = [ord(character) for character in msg]
-    ascii_str = str(ascii_values)
-
-    print("Send the result to client")
-    clientConnection.send(ascii_str.encode())
-
-clientConnection.close()
+    answer = client.recv(1024)
+    print("Answer is "+answer.decode())
+    print("Type 'Over' to terminate")
+client.close()
 ```

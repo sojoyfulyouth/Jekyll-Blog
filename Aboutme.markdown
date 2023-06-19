@@ -34,16 +34,12 @@
 > > - [Kenshi Yonezu - orion](https://youtu.be/lzAyrgSqeeE)
 > > - [Armors & Olen - D.O.A](https://youtu.be/n3Nt6FPS9hQ)
 
-<!-- prettier-ignore-start -->
+---
 
-<br>
------------------------------------------------------
-<br>
+<!-- prettier-ignore-start -->
 
 > Used way to deploy Hompage:  
 > > - Applied Jekyll theme to Github pages 
 > > - Wrote Markdown code and Learned how to fork Github project and deploy Github page 
-
-
 
 <!-- prettier-ignore-end -->

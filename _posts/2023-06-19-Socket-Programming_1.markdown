@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Socket Programming - Calculator"
-date: 2023-06-19 14:03:36
+date: 2023-06-19
 categories: Computer-Network
 ---
 

@@ -1,10 +1,3 @@
----
-layout: post
-title: "About me"
-date: 2023-06-19 11:03:36 +0530
-# categories: About-me
----
-
 단국대학교 소프트웨어학과 3학년
 
 lang:

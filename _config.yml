@@ -28,10 +28,8 @@ plainwhite:
     github: sojoyfulyouth
     email: 32202341@dankook.ac.kr
   navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
+    - title: About me
+      url: Aboutme.markdown
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

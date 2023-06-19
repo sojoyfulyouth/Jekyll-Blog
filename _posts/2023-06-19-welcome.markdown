@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Integrating razorpay into your webapp"
 date: 2023-06-19 16:03:36 +0530
 categories: About me

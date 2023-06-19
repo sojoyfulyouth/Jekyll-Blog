@@ -1,8 +1,10 @@
-About Me
+<div style="text-align: center;">
 
-<img src="/assets/me.png" width="40%" height="30%"></img>
+<h1 > About Me </h1>
 
-Name: 송지윤
+<img src="/assets/me.png" width="40%" height="40%" >
+
+Name: 송지윤 Jiyun Song
 
 Academic: Junior in SW Engineering
 
@@ -12,3 +14,5 @@ Lang:
 - python
 - html
 - Java
+
+</div>

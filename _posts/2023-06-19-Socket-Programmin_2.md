@@ -2,7 +2,7 @@
 layout: post
 title: "Socket Programming - String Transfer"
 date: 2023-06-19
-categories: ComputerNetwork
+categories: Computer-Network
 ---
 
 <!-- prettier-ignore-start -->

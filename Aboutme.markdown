@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 
-<img src="/assets/me.png" width="40%" height="40%" >
+<img src="/assets/me2.jpg" width="40%" height="40%" >
 
 </div>
 
@@ -32,8 +32,8 @@
 
 <!-- prettier-ignore-start -->
 
-##### Way to deploy Hompage:
-##### - Applied Jekyll theme to Github pages
-##### - Wrote Markdown code and Learned how to fork Github project and deploy Github page 
+##### > Way to deploy Hompage:
+##### > > Applied Jekyll theme to Github pages
+##### > > Wrote Markdown code and Learned how to fork Github project and deploy Github page 
 
 <!-- prettier-ignore-end -->

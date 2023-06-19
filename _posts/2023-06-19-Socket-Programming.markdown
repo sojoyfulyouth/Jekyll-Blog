@@ -7,11 +7,9 @@ categories: ComputerNetwork
 
 <!-- prettier-ignore-start -->
 
-<pre>
-<code>
+```python
 print("hello")
-</code>
-</pre>
+```
 
 <!-- prettier-ignore-end -->
 

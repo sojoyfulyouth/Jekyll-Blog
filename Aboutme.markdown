@@ -4,7 +4,6 @@
 
 <img src="/assets/me.png" width="40%" height="40%" >
 
-</div>
     Name: 송지윤 Jiyun Song
 
     Academic: Junior in SW Engineering
@@ -22,3 +21,5 @@
     - Listening to Music
 
     Favorite Music:
+
+</div>

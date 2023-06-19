@@ -5,38 +5,40 @@ date: 2023-06-19
 categories: ComputerNetwork
 ---
 
-### 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
+<!-- prettier-ignore-start -->
+### 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드  
+#### 서버 코드  
 
-#### 서버 코드
+```python  
+import socket  
 
-```python
-import socket
+LOCALHOST = "127.0.0.1"  
+PORT = 8080  
 
-LOCALHOST = "127.0.0.1"
-PORT = 8080
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
+server.bind((LOCALHOST, PORT))  
+server.listen()  
+print("Server started")  
+print("Waiting for client request..")  
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((LOCALHOST, PORT))
-server.listen()
-print("Server started")
-print("Waiting for client request..")
+clientConnection, clientAddress = server.accept()  
+print("Connected client: ", clientAddress)  
+msg = ''  
 
-clientConnection, clientAddress = server.accept()
-print("Connected client: ", clientAddress)
-msg = ''
+while True:  
+    data = clientConnection.recv(1024)  
+    msg = data.decode()  
+    if msg == 'Over':  
+        print("Connection is Over")  
+        break  
 
-while True:
-data = clientConnection.recv(1024)
-msg = data.decode()
-if msg == 'Over':
-print("Connection is Over")
-break
-print("Equation is received")
-result = 0
-operation_list = msg.split()
-oprnd1 = operation_list[0]
-operation = operation_list[1]
-oprnd2 = operation_list[2]
+    print("Equation is received")  
+    result = 0
+    
+    operation_list = msg.split()
+    oprnd1 = operation_list[0]
+    operation = operation_list[1]
+    oprnd2 = operation_list[2]
 
     num1 = int(oprnd1)
     num2 = int(oprnd2)
@@ -56,6 +58,7 @@ oprnd2 = operation_list[2]
 
 clientConnection.close()
 ```
+<!-- prettier-ignore-end -->
 
 ```javascript
 const Razorpay = require("razorpay");

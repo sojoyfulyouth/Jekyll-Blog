@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 
-<img src="/assets/me3.jpg" width="40%" height="30%" >
+<img src="/assets/me3.jpg" width="50%" height="50%" >
 
 </div>
 

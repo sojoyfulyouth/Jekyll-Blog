@@ -33,8 +33,12 @@
 
 <!-- prettier-ignore-start -->
 
-<p> Way to deploy Hompage: </p>
-<p> - Applied Jekyll theme to Github pages </p>
-<p> - Wrote Markdown code and Learned how to fork Github project and deploy Github page </p>
+
+
+<p>     Used way to deploy Hompage: </p>
+<p>         - Applied Jekyll theme to Github pages </p>
+<p>         - Wrote Markdown code and Learned how to fork Github project and deploy Github page </p>
+
+
 
 <!-- prettier-ignore-end -->

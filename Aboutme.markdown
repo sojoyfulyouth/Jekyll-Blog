@@ -10,6 +10,8 @@
 
 > Academic: Junior in SW Engineering
 
+---
+
 > Lang:
 
 > > - Html
@@ -19,6 +21,8 @@
 > >   > Web scrapping, Socket programming, console-based projects, and data analysis using pandas
 > > - Java
 > >   > Utilizing class and inheritance and building User-interface program with Java-swing
+
+---
 
 > Hobby:
 
@@ -32,9 +36,9 @@
 
 <!-- prettier-ignore-start -->
 
-<br></br>
+<br>
 -----------------------------------------------------
-<br></br>
+<br>
 
 > Used way to deploy Hompage:  
 > > - Applied Jekyll theme to Github pages 

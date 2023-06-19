@@ -7,7 +7,7 @@ categories: ComputerNetwork
 
 <!-- prettier-ignore-start -->
 
-#### 3. File Modifier: 사용자가 파일의 이름과 read/write 여부를 서버에게 전달하면 file read 내용 반환하는 코드
+#### File Modifier: 사용자가 파일의 이름과 read/write 여부를 서버에게 전달하면 file read 내용 반환하는 코드
 #### - write를 선택한 경우 사용자는 추가할 content를 함께 입력함
 #### - 단, 파일은 코드 파일과 같은 폴더 내에 존재함
 ##### 서버 코드

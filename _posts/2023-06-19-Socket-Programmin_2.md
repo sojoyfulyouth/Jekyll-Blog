@@ -7,7 +7,7 @@ categories: ComputerNetwork
 
 <!-- prettier-ignore-start -->
 
-#### 2. String Transfer: client가 입력한 문자열을 서버에서 ASCII 코드로 반환하는 코드
+#### String Transfer: client가 입력한 문자열을 서버에서 ASCII 코드로 반환하는 코드
 ##### 서버 코드
 
 <!-- prettier-ignore-end -->

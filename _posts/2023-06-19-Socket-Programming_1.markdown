@@ -7,7 +7,7 @@ categories: ComputerNetwork
 
 <!-- prettier-ignore-start -->
 
-#### 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
+#### Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
 ##### 서버 코드
 
 <!-- prettier-ignore-end -->

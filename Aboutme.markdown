@@ -7,7 +7,6 @@
 </div>
 
 > Name: 송지윤
-> In English: Jiyun Song
 
 > Academic: Junior in SW Engineering
 
@@ -35,9 +34,9 @@
 
 
 
-<p>     Used way to deploy Hompage: </p>
-<p>         - Applied Jekyll theme to Github pages </p>
-<p>         - Wrote Markdown code and Learned how to fork Github project and deploy Github page </p>
+     Used way to deploy Hompage: 
+         - Applied Jekyll theme to Github pages 
+         - Wrote Markdown code and Learned how to fork Github project and deploy Github page 
 
 
 

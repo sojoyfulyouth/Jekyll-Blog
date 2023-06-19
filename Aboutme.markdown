@@ -32,8 +32,10 @@
 
 <!-- prettier-ignore-start -->
 
-
+<br></br>
 -----------------------------------------------------
+<br></br>
+
 > Used way to deploy Hompage:  
 > > - Applied Jekyll theme to Github pages 
 > > - Wrote Markdown code and Learned how to fork Github project and deploy Github page 

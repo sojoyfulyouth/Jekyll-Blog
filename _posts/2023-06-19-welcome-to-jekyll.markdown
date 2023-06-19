@@ -9,7 +9,7 @@ categories: ComputerNetwork
 
 ### 서버 코드
 
-```
+```python
 import socket
 
 LOCALHOST = "127.0.0.1"

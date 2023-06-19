@@ -1,7 +1,6 @@
-    About Me
+About Me
 
-================
-![Alt text](/assets/me.png)
+<img src="/assets/me.png" width="40%" height="30%"></img>
 
 Name: 송지윤
 

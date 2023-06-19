@@ -6,25 +6,20 @@
 
 </div>
 
-<!-- prettier-ignore-start -->
-<p style="text-align: center;">    
-    Name: 송지윤 Jiyun Song
+> Name: 송지윤 Jiyun Song
 
-    Academic: Junior in SW Engineering
+> Academic: Junior in SW Engineering
 
-    Lang:
+> Lang:
 
-    - Javascript
-    - python
-    - html
-    - Java
+> > - Javascript
+> > - python
+> > - html
+> > - Java
 
-    Hobby:
+Hobby:
 
-    - Go Driving
-    - Listening to Music
+- Go Driving
+- Listening to Music
 
-    Favorite Music:
-
-</p>
-<!-- prettier-ignore-end -->
+Favorite Music:

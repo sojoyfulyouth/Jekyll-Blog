@@ -1,6 +1,13 @@
-단국대학교 소프트웨어학과 3학년
+    About Me
 
-lang:
+================
+![Alt text](/assets/me.png)
+
+Name: 송지윤
+
+Academic: Junior in SW Engineering
+
+Lang:
 
 - Javascript
 - python

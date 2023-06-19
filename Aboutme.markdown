@@ -6,6 +6,7 @@
 
 </div>
 
+<!-- prettier-ignore-start -->
 <p style="text-align: center;">    
     Name: 송지윤 Jiyun Song
 
@@ -26,3 +27,4 @@
     Favorite Music:
 
 </p>
+<!-- prettier-ignore-end -->

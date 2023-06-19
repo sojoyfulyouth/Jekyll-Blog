@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Socket Programming - String Transfer"
-date: 2023-06-19 15:30:36 +0530
+date: 2023-06-19
 categories: ComputerNetwork
 ---
 

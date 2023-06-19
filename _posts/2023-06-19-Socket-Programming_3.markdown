@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Socket Programming - File Modifier"
-date: 2023-06-19 15:56:46 +0530
+date: 2023-06-19
 categories: ComputerNetwork
 ---
 

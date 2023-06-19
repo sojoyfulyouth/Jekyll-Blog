@@ -30,8 +30,10 @@
 > > - [Kenshi Yonezu - orion](https://youtu.be/lzAyrgSqeeE)
 > > - [Armors & Olen - D.O.A](https://youtu.be/n3Nt6FPS9hQ)
 
-###### Hompage 구축 방법:
+<!-- prettier-ignore-start -->
 
-###### Apply Jekyll theme to Github pages
+##### Way to deploy Hompage:
+##### - Applied Jekyll theme to Github pages
+##### - Wrote Markdown code and Learned how to fork Github project and deploy Github page 
 
-###### Markdown 문법과 github project fork 및 page deployment 방법 학습
+<!-- prettier-ignore-end -->

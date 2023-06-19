@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<h1 style="text-align: center;"> About Me </h1>
 
-<h1 > About Me </h1>
+<div style="text-align: center;">
 
 <img src="/assets/me.png" width="40%" height="40%" >
 

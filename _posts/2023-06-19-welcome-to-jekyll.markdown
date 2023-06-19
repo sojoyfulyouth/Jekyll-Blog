@@ -5,9 +5,9 @@ date: 2023-06-19
 categories: ComputerNetwork
 ---
 
-## 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
+### 1. Calculator: client가 문자열 형태로 수식을 입력하면 결과값을 반환하는 코드
 
-### 서버 코드
+#### 서버 코드
 
 ```python
 import socket
